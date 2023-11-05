@@ -24,4 +24,5 @@ kubectl get all -n lab4
 
 ```console
 kubectl top pod -n lab4
+kubectl top node -n lab4
 ```
