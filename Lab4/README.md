@@ -21,3 +21,7 @@ kubectl get pods -n lab4
 ```console
 kubectl get all -n lab4
 ```
+
+```console
+kubectl top pod -n lab4
+```
