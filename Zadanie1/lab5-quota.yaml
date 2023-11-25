@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: lab5-quota
+  namespace: lab5
+spec:
+  hard:
+    pods: "10"
+    limits.cpu: "2"
+    limits.memory: 1500Mi
+
