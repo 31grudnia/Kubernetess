@@ -41,3 +41,31 @@ kubectl create clusterrolebinding gitops-admin --clusterrole=cluster-admin --ser
 ```
 
 ## Task 4A/4B
+
+Starting StepCD
+
+```console
+kubectl apply -f StepCD.yaml 
+```
+
+Displaying after launch
+
+```console
+kubectl get all
+```
+
+Displaying curl
+
+```cosnole
+curl -h "Host: zad2.lab" http://localhost
+```
+
+
+
+
+
+
+
+
+
+
