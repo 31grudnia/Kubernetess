@@ -25,3 +25,19 @@ Link to repositories used for this Taks
 [Github Workflows file](https://github.com/31grudnia/lab10_source/blob/master/.github/workflows/zad2lab10.yml)
 
 ## Task 3A
+
+[Dockerfile](https://github.com/31grudnia/Kubernetess/blob/Zadanie2/Zadanie2/gitops/Dockerfile)
+
+## Task 3B
+
+[StepCD](https://github.com/31grudnia/Kubernetess/blob/Zadanie2/Zadanie2/gitops/StepCD.yaml)
+
+```console
+kubectl create sa gitops
+```
+
+```console
+kubectl create clusterrolebinding gitops-admin --clusterrole=cluster-admin --serviceaccount default:gitops
+```
+
+## Task 4A/4B
